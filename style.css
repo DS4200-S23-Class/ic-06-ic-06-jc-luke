@@ -1,3 +1,13 @@
+
 .blueline {
 	stroke: darkblue;
+}
+
+button {
+	margin: 10px;
+}
+
+.gen {
+	font-size: 30px;
+	margin: 10px;
 }
