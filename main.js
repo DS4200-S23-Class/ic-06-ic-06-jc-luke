@@ -2,7 +2,17 @@
 function buttonClicked() {
 	let newText = "Button was clicked!";
 
-	let buttonDiv = document.getElementById("button-div")
+	let buttonDiv = document.getElementById("button-div");
 
 	buttonDiv.innerHTML = newText;
 }
+
+
+function mouseOver() {
+	document.getElementById("circle").style.backgroundColor = 'orange';
+
+
+
+}
+
+document.getElementById("circle").addEventListener('mouseover', mouseOver);
